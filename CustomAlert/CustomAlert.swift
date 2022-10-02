@@ -9,7 +9,7 @@ import Combine
 import SwiftUI
 
 /// Alert type
-enum AlertType: Equatable {
+enum AlertType {
     
     case success
     case error(title: String, message: String = "")
