@@ -43,7 +43,7 @@ enum AlertType {
     }
     
     /// Right button action text for the alert view
-    var rightActionText: LocalizedStringKey {
+    var rightActionText: String {
         switch self {
         case .success:
             return "Cancel"
